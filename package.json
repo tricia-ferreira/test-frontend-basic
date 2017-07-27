@@ -1,0 +1,22 @@
+{
+  "name": "test-frontend-basic",
+  "version": "1.0.0",
+  "description": "This test aims to assess your frontend proficiency and expertise level with regards to HTML5, CSS3 (using SASS) and JavaScript (core &amp; jQuery)",
+  "dependencies": {
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameWave/test-frontend-basic.git"
+  },
+  "author": "Jean du Plessis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SameWave/test-frontend-basic/issues"
+  },
+  "homepage": "https://github.com/SameWave/test-frontend-basic#readme"
+}
