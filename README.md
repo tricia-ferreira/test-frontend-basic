@@ -35,9 +35,26 @@ You are required to fork this repo into your own GitHub account, make all your c
 Please ensure your commit messages are succinct as we will be looking at it as part of the assessment.
 
 ### Page Specific Requirements
-#### People 
+#### People
+- Toolbar 
+  - When clicking on the search icon an input area should appear inside the toolbar allowing someone to enter text that filters the results in the list.
+  - When clicking on the edit link in the toolbar, each row should show a delete icon and the edit link should change into a cancel link.
+- List
+  - Clicking on any row in the list should navigate you to the person-profile.html page
+
+#### Person Profile
+- Blocks
+  - Clicking on the contact block should initiate a phone call on a mobile device
+  - Clicking on the edit block should take you to the person.hml page     
+  - No other block actions are required
+
 #### Person
-#### Person Profile 
+- Wallpaper/Photo
+  - Clicking on the camera icons should open the browser file dialog
+- Form
+  - Add basic input validation for required fields and email validation  
+- Enable admin access
+  - Make the toggle switch interactive so that it shows an active/inactive state   
 
 ### Assessment criteria
 We will be looking at the following aspects when assessing your code:
