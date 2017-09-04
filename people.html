@@ -1,9 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>People</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js"></script>
 </head>
 <body>
-
+  <header class='header container block__shadow'>
+    <div class="container__item">
+      <img src="images/icon/icon-back.svg" alt="Back arrow" class="header__img">
+    </div>
+    <h1 class="container__item text__center">People</h1>
+    <div class="container__item text__right">
+      <img src="images/icon/icon-menu.svg" alt="Main menu" class="header__img">
+    </div>
+  </header>
+  <main>
+    <div class="toolbar text__center">
+      <div class="container toolbar__block" id="js-search-container">
+        <div class="container__item">
+          <img src="images/icon/icon-search.svg" alt="Search" class="toolbar__img js-search-icon" onClick="toggleToolbar()">
+          <h5 id="edit-search" class="right" onClick="editContacts(); toggleButtons()">Edit</h5>
+          <h5 id="cancel-search" class="right hidden" onClick="editContacts(); toggleButtons()">Cancel</h5>
+        </div>
+      </div>
+      <div class="container js-search-form hidden" id="js-search-form">
+        <div class="container__item toolbar__search">
+          <form class="form" action="" method="">
+            <input type="text" name="" placeholder="Search..." class="form__input">
+          </form>
+        </div>
+      </div>
+    </div>
+    <section class="contact block__shadow">
+      <div class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar1.png" alt="Me" class="avatar">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Me</h3>
+        </div>
+      </div>
+      <div class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar2.png" alt="Tyrell Corp" class="avatar">
+        </div>
+        <div class="container__item container__item__nongrow">
+          <h3 class="contact__name">Tyrell Corp</h3>
+        </div>
+      </div>
+    </section>
+    <section class="contact block__shadow">
+      <div class="container container__border">
+        <div class="contact__category container__item">
+          <h2>C</h2>
+        </div>
+      </div>
+      <a href="/person-profile.html" class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar1.png" alt="Claire Patterson" class="avatar avatar__border avatar__border__green">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Claire Patterson</h3>
+          <h5 class="contact__position">Helpdesk Manager</h5>
+        </div>
+        <div class="container__item container__item__nongrow right">
+          <img src="images/icon/icon-trash.svg" alt="Trash" class="contact__icon js-trash-icon invisible">
+        </div>
+      </a>
+      <a href="/person-profile.html"  class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar1.png" alt="Claire Patterson" class="avatar avatar__border avatar__border__green">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Claire Patterson</h3>
+          <h5 class="contact__position">Helpdesk Manager</h5>
+        </div>
+        <div class="container__item container__item__nongrow right">
+          <img src="images/icon/icon-trash.svg" alt="Trash" class="contact__icon js-trash-icon invisible">
+        </div>
+      </a>
+      <a href="/person-profile.html"  class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar1.png" alt="Claire Patterson" class="avatar avatar__border avatar__border__green">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Claire Patterson</h3>
+          <h5 class="contact__position">Helpdesk Manager</h5>
+        </div>
+        <div class="container__item container__item__nongrow right">
+          <img src="images/icon/icon-trash.svg" alt="Trash" class="contact__icon js-trash-icon invisible">
+        </div>
+      </a>
+    </section>
+    <section class="contact block__shadow">
+      <div class="container container__border">
+        <div class="contact__category container__item">
+          <h2>E</h2>
+        </div>
+      </div>
+      <a href="/person-profile.html"  class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar3.png" alt="Example Person" class="avatar avatar__border avatar__border__yellow">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Example Person</h3>
+          <h5 class="contact__position">Project Manager</h5>
+        </div>
+        <div class="container__item container__item__nongrow right">
+          <img src="images/icon/icon-trash.svg" alt="Trash" class="contact__icon js-trash-icon invisible">
+        </div>
+      </a>
+      <a href="/person-profile.html"  class="container container__border container__white">
+        <div class="container__item container__item__nongrow">
+          <img src="images/avatar/avatar3.png" alt="Example Person" class="avatar avatar__border avatar__border__red">
+        </div>
+        <div class="container__item">
+          <h3 class="contact__name">Example Person</h3>
+          <h5 class="contact__position">Project Manager</h5>
+        </div>
+        <div class="container__item container__item__nongrow right">
+          <img src="images/icon/icon-trash.svg" alt="Trash" class="contact__icon js-trash-icon invisible">
+        </div>
+      </a>
+    </section>
+  </main>
 </body>
 </html>

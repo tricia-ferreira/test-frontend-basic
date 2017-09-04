@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) {
+  .avatar {
+    height: $large;
+    width: $large;
+    &__large {
+      height: $large-icon;
+      width: $large-icon;
+    }
+  }
+  .button {
+    &__large {
+      padding: $xxx-small 0;
+    }
+    &__image {
+      max-width: $xx-small;
+    }
+  }
+  body, input, button {
+    font-size: $text_l;
+  }
+  h3, h5 {
+    font-size: $text_l;
+
+  }
+}

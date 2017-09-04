@@ -1,0 +1,64 @@
+.form {
+  box-sizing: border-box;
+  &__upload {
+    padding: $xxx-large;
+  }
+  &__image {
+    color: $info;
+    padding: 2em 0;
+    width: 100%;
+    &__padded {
+      padding: $xxxx-large 0;
+    }
+    &__wrapper {
+      background: url('../images/icon/icon-camera.svg') no-repeat;
+      background-position: center;
+      background-size: 100px;
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    &__src {
+      opacity: 0;
+      filter: alpha(opacity=0); /* IE 5-7 */
+      width: 100px;
+      height: 80px;
+    }
+  }
+  &__group {
+    border-bottom: 1px solid $tertiary;
+    padding: $x-small;
+    position: relative;
+  }
+  &__input {
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+  }
+  &__label {
+    color: $tertiary;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__button {
+    color: $info;
+    position: absolute;
+    right: 0;
+    &__top {
+      top: $x-small;
+    }
+    &__bottom {
+      bottom: $x-small;
+    }
+  }
+  &__hint {
+    color: $tertiary;
+    margin: 0;
+  }
+  &__background {
+    background-color: $white;
+  }
+}

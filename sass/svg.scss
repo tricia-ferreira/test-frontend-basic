@@ -1,0 +1,12 @@
+.svg {
+  // background-color: blue;
+  &__blue {
+    svg {
+      background-color: blue;
+      fill: $info;
+      path {
+        fill: $info;
+      }
+    }
+  }
+}

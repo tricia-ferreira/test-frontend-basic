@@ -1,0 +1,36 @@
+.profile {
+  &__block {
+    padding: $medium;
+  }
+  &__actions {
+    .container__item {
+      width: 23%;
+    }
+    &__img {
+      color: $info;
+      max-height: 40px;
+    }
+    &__border__down {
+      border-right: 1px solid transparent;
+      -moz-border-image: -moz-linear-gradient(top, $white 0%, $primary 100%);
+      -webkit-border-image: -webkit-linear-gradient(top, $white 0%, $primary 100%);
+      border-image: linear-gradient(to bottom, $white 0%, $primary 100%);
+      border-image-slice: 1;
+    }
+    &__border__up {
+      border-right: 1px solid transparent;
+      -moz-border-image: -moz-linear-gradient(top, $primary 0%, $white 100%);
+      -webkit-border-image: -webkit-linear-gradient(top, $primary 0%, $white 100%);
+      border-image: linear-gradient(to bottom, $primary 0%, $white 100%);
+      border-image-slice: 1;
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: $info;
+      font-size: $text_xxl;
+    }
+  }
+}

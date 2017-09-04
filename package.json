@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "This test aims to assess your frontend proficiency and expertise level with regards to HTML5, CSS3 (using SASS) and JavaScript (core &amp; jQuery)",
   "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
     "gulp-sass": "^3.1.0"
   },
-  "devDependencies": {},
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/SameWave/test-frontend-basic/issues"
   },
-  "homepage": "https://github.com/SameWave/test-frontend-basic#readme"
+  "homepage": "https://github.com/SameWave/test-frontend-basic#readme",
+  "main": "gulpfile.js"
 }

@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+  <header class='header container block__shadow'>
+    <div class="container__item">
+      <img src="images/icon/icon-back.svg" alt="Back arrow" class="header__img">
+    </div>
+    <h1 class="container__item text__center">Person</h1>
+    <div class="container__item text__right"></div>
+  </header>
+  <main class="user">
+    <form class="form" action="" method="">
+      <div class="banner text__center text__info">
+        <div class="form__image form__image__padded">
+          <span class="form__image__wrapper">
+            <input type="file" name="image_src" class="form__image__src form__image__large__src" />
+          </span>
+          <p>Add Wallpaper</p>
+        </div>
+        <span class="avatar avatar__large avatar__profile avatar__grey avatar__border avatar__border__green">
+          <div class="form__image">
+            <span class="form__image__wrapper form__image__small">
+              <input type="file" name="image_src" class="form__image__src form__image__small__src" />
+            </span>
+            <p>Add Photo</p>
+          </div>
+        </span>
+      </div>
+      <div class="form__background padding__top-large">
+        <div class="form__group">
+          <label class="form__label" for="first_name">First name *(Required)</label>
+          <input type="text" name="first_name" value="Marc" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="last_name">Last name *</label>
+          <input type="text" name="last_name" value="Houston" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="email">Email *</label>
+          <input type="email" name="email" value="marchouston@tyrellcorp.com" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="password">Password *</label>
+          <input type="password" name="password" value="adsasdasd" class="form__input" required>
+          <button type="button" name="button" class="form__button form__button__bottom">Choose new</button>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="work_phone">Work phone</label>
+          <input type="tel" name="work_phone" value="020 711 2222" class="form__input">
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="mobile_phone">Mobile phone</label>
+          <input type="tel" name="mobile_phone" value="07940 729 456" class="form__input">
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="job_title">Job title</label>
+          <input type="text" name="job_title" value="Sales Director" class="form__input">
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="job_title">Manager</label>
+          <button type="button" name="button" class="form__button form__button__top">Set this persons manager</button>
+          <p class="form__hint">Managers can access their teams tasks, streams &amp; details.</p>
+        </div>
+        <div class="form__group">
+          <label class="switch right">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <label class="form__label" for="job_title">Enable admin access</label>
+          <p class="form__hint">Admins can access their teams tasks, streams &amp; details.</p>
+        </div>
+      </div>
+    </form>
+    <button type="button" name="button" class="button button__large button__red container container__border">
+      <span class="container__item">
+        Delete account
+      </span>
+      <span class="container__item text__right">
+        <object type="image/svg+xml" data="images/icon/icon-trash.svg" class="svg button__image">
+          Trash icon
+        </object>
+      </span>
+    </button>
+    <p class="form__hint text__center padding__large">Member sice Jan 22, 2015.</p>
+  </main>
 </body>
 </html>

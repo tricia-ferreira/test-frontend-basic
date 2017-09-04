@@ -1,0 +1,122 @@
+$primary: #e7e9ee;
+$secondary: #191d24;
+$tertiary: #aab4c4;
+
+$success: #b6d08b;
+$alert: #f1be55;
+$danger: #cc2f2f;
+$info: #13afd7;
+
+$light_grey: #f1f2f5;
+$white: #ffffff;
+
+$font: 'Open Sans', sans-serif;
+
+$large-icon: 9em;
+$xxxx-large: 8em;
+$xxx-large: 7em;
+$xx-large: 6em;
+$x-large: 5em;
+$large: 4.5em;
+$medium: 4em;
+$small: 3.5em;
+$x-small: 2em;
+$xx-small: 1.5em;
+$xxx-small: 1em;
+
+$text_xxl: 50px;
+$text_xl: 40px;
+$text_l: 34px;
+$text_m: 28px;
+$text_s: 24px;
+
+@import "header";
+@import "toolbar";
+@import "contact_list";
+@import "form";
+@import "profile";
+@import "avatar";
+@import "text";
+@import "user";
+@import "button";
+@import "svg";
+@import "banner";
+@import "switch";
+@import "responsive";
+
+// Common styles
+body {
+  background-color: $light_grey;
+  color: $secondary;
+  font-family: $font;
+  margin: 0;
+}
+
+body, input, button {
+  font-size: $text_m;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  &__item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: $xxx-small $xx-small;
+    box-sizing: border-box;
+    &__nongrow {
+      flex-grow: 0;
+    }
+  }
+  &__border {
+    border-bottom: 1px solid $primary;
+  }
+  &__white {
+    background-color: $white;
+  }
+}
+
+.block {
+  &__shadow {
+    box-shadow: 0 0.5em 1em $primary;
+  }
+}
+
+.right {
+  float: right;
+}
+
+.padded {
+  padding: $x-small;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.padding {
+  &__large {
+    padding: $medium;
+  }
+  &__top-large {
+    padding-top: $xxxx-large;
+  }
+  &__top-medium {
+    padding-top: $xxx-large;
+  }
+  &__bottom-small {
+    padding-bottom: $x-small;
+  }
+}

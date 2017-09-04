@@ -1,0 +1,13 @@
+.banner {
+  position: relative;
+  &__img {
+    width: 100%;
+  }
+  &__margin {
+    margin-bottom: $xxx-large;
+  }
+  &__icon {
+    margin: auto;
+    max-width: $xxx-large;
+  }
+}

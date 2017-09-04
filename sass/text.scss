@@ -1,0 +1,38 @@
+.text {
+  &__center {
+    text-align: center;
+  }
+  &__right {
+    text-align: right;
+  }
+  &__bold {
+    font-weight: bold;
+  }
+  &__uppercase {
+    text-transform: uppercase;
+  }
+  &__info {
+    color: $info;
+  }
+}
+
+h1 {
+  font-size: $text_xl;
+  margin: 0;
+}
+
+h2 {
+  font-size: $text_m;
+  margin: 0;
+}
+
+h3 {
+  font-size: $text_m;
+  margin: 0;
+}
+
+h5 {
+  color: $tertiary;
+  font-size: $text_s;
+  margin: 0;
+}

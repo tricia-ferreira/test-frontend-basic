@@ -1,0 +1,27 @@
+.button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  &__large {
+    padding: $x-small 0;
+    width: 100%;
+  }
+  &__red {
+    color: $danger;
+  }
+  &__image {
+    max-width: $small;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+    &__large {
+      padding: $xxx-small 0;
+    }
+    &__image {
+      max-width: $xx-small;
+    }
+  }
+}
