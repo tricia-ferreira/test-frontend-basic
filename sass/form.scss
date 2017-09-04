@@ -20,7 +20,7 @@
     }
     &__src {
       opacity: 0;
-      filter: alpha(opacity=0); /* IE 5-7 */
+      filter: alpha(opacity=0);
       width: 100px;
       height: 80px;
     }
@@ -44,9 +44,12 @@
     text-transform: uppercase;
   }
   &__button {
+    background: transparent;
+    border: none;
     color: $info;
+    padding: 0;
     position: absolute;
-    right: 0;
+    right: $x-small;
     &__top {
       top: $x-small;
     }

@@ -58,9 +58,12 @@
     font-weight: bold;
     text-transform: uppercase; }
   .form__button {
+    background: transparent;
+    border: none;
     color: #13afd7;
+    padding: 0;
     position: absolute;
-    right: 0; }
+    right: 2em; }
     .form__button__top {
       top: 2em; }
     .form__button__bottom {
