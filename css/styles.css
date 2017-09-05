@@ -39,7 +39,6 @@
     .form__image__src {
       opacity: 0;
       filter: alpha(opacity=0);
-      /* IE 5-7 */
       width: 100px;
       height: 80px; }
   .form__group {
